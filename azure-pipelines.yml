@@ -8,7 +8,6 @@ trigger:
 
 pool: asusagentpool
 
-
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
