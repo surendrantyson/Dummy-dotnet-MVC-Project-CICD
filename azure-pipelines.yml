@@ -8,6 +8,14 @@ trigger:
 
 pool: Default
 
+schedules:
+- cron: "43 19 * * *"  # Runs at midnight every day
+  always: true
+  displayName: Scheduled trigger
+  branches:
+    include:
+      - main
+
 variables:
   buildConfiguration: 'Release'
 
