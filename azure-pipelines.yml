@@ -7,6 +7,7 @@ trigger:
 - main
 
 pool: Default
+#-
 
 schedules:
 - cron: "43 19 * * *"  # Runs at midnight every day
